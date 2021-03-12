@@ -1,0 +1,231 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header-phone{
+    font-size: 0.8rem;
+}
+.btn{
+    border-radius: 0.4rem !important;
+}
+.bg-mustard{
+    background-color: #D19525;
+    color:#fff;
+}
+.mustard{
+    color: #D19525;
+}
+.bg-primary{
+    background-color: #334b37!important;
+}
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+   
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 10s linear infinite alternate;
+  }
+  @keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+.caption{
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: rgba(51, 75, 55, 0.75);
+    outline: 10px solid rgba(51, 75, 55, 0.75);
+    outline-offset: 8px;
+    position: absolute;
+    right: 35%;
+    top: 35%;
+    left: 35%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.resources:hover{
+ background-color: #017f8d;
+}
+
+@media only screen and (max-width: 600px){
+    .carousel-item {
+        height: 65vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    .caption{
+        padding: 20px;
+        font-size: 1.8rem;
+        font-weight: bold;
+        background-color: rgba(51, 75, 55, 0.75);
+        outline: 6px solid rgba(51, 75, 55, 0.75);
+        outline-offset: 6px;
+        position: absolute;
+        right: 10%;
+        top: 25%;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .logo{
+       display: flex;
+       justify-content: center;
+    }
+}
+.h2-center{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #334b37;
+    line-height: 15px;
+}
+.h2-center-yellow{
+    background-color:#D19525;
+    display: inline-block;
+    width: 140px;
+    height: 4px;
+
+
+}
+.service-grid{
+    position: relative;
+    line-height: 18px;
+
+}
+.service-grid-text{
+    position: absolute;
+    bottom: 0;
+    padding:5px;
+    color:#fff;
+    background-color: #334b37;
+    text-align: center;
+    font-weight:bold;
+    min-height: 43px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.certifications{
+    background-color: #334b37;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 8px solid #D19525;
+    margin-top:80px;
+    margin-bottom: 0px;
+}
+.cetifiations-logo{
+    background-color: #CCE5E8;
+    padding:20px;
+}
+.titles{
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #334b37;
+    line-height: auto;
+    width:100%;
+}
+.title-line-yellow{
+    background-color:#D19525;
+    display: inline-block;
+    width: 140px;
+    height: 4px;
+    text-align: left!important;
+    margin-bottom: 20px;
+
+}
+.news-title{
+    font-weight: bold;
+}
+.news-text{
+    margin-bottom: 0px;
+}
+.resources{
+    padding:20px 5px;
+    background-color: #334b37;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+
+}
+.img-resources{
+    width:30%;
+    color:#D19525;
+}
+.footer-contact{
+    background-color: #017F8D;
+    padding: 20px;
+    margin-top:60px;
+    color: #fff;
+}
+.black-color{
+    color:#000;
+}
+.bg-black{
+    background-color: #000;
+    color:#fff;
+}
+.footer{
+    color: #fff;
+    background-color: #334b37;
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align: center;
+}
+.footer ul li{
+    list-style: none;
+    display: inline;
+}
+.footer a{
+    color:#fff;
+}
+.footer a:hover{
+    color:#D19525;
+}
+.id-spacer{
+    height:1rem;
+    width: 100%;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #D19525;
+    border-color: #D7BA7D;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #334b37;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.technical_bulletins .col-md-3{
+    padding:20px;
+
+}
+.technical_bulletins .col-md-3 img{
+    box-shadow: 1px 1px 5px grey;
+}
+

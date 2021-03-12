@@ -1,0 +1,68 @@
+.myradio input{
+    margin-right:20px !important;
+}
+.form-title{
+    border-bottom: 1px dashed #FF4500;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#002652;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.dash .nav-link {
+    color:#000;
+    background-color:#E5DBCF;
+    margin-right: 10px;
+}
+.student-details span{
+font-weight: bold;
+margin-right:20px;
+width:160px;
+display: inline-block;
+
+}
+.student-details div{
+   
+    padding:8px;
+}
+
+.student-details input{
+    border:none;
+    background-color: #fff;
+}
+.student-details label{
+    font-weight: bold;
+}
+.student-details input:disabled{
+    
+    background-color: #fff;
+}
+.assignmentlist>.row{
+    margin-bottom:20px;
+}
+.btn-default.btn-on.active{background-color: #5BB75B;color: white;}
+.btn-default.btn-off.active{background-color: #DA4F49;color: white;}
+.btn-default.btn-on-1.active{background-color: #006FFC;color: white;}
+.btn-default.btn-off-1.active{background-color: #DA4F49;color: white;}
+
+.btn-default.btn-on-2.active{background-color: #00D590;color: white;}
+.btn-default.btn-off-2.active{background-color: #A7A7A7;color: white;}
+
+.btn-default.btn-on-3.active{color: #5BB75B;font-weight:bolder;}
+.btn-default.btn-off-3.active{color: #DA4F49;font-weight:bolder;}
+
+.btn-default.btn-on-4.active{background-color: #006FFC;color: #5BB75B;}
+.btn-default.btn-off-4.active{background-color: #DA4F49;color: #DA4F49;}
+[data-toggle="buttons"]>.btn>input[type="radio"], [data-toggle="buttons"]>.btn>input[type="checkbox"] {
+    display: none;
+}
